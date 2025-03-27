@@ -6,12 +6,12 @@ public class Wardrobe {
 
     private int height;
 
-    private double weigh;
+    private double weight;
 
-    public Wardrobe(int width, int height, double weigh) {
+    public Wardrobe(int width, int height, double weight) {
         this.width = width;
         this.height = height;
-        this.weigh = weigh;
+        this.weight = weight;
     }
 
     public int getWidth() {
@@ -23,7 +23,7 @@ public class Wardrobe {
     }
 
     public double getWeight() {
-        return weigh;
+        return weight;
     }
 
     public void add(){

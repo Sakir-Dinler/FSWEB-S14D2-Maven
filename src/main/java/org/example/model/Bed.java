@@ -11,14 +11,14 @@ public class Bed {
 
     private  int sheets;
 
-    private int quilt;
+    private int quilts;
 
-    public Bed(String style, int pillows, int height, int sheets, int quilt) {
+    public Bed(String style, int pillows, int height, int sheets, int quilts) {
         this.style = style;
         this.pillows = pillows;
         this.height = height;
         this.sheets = sheets;
-        this.quilt = quilt;
+        this.quilts = quilts;
     }
 
     public  void  make(){
@@ -38,7 +38,7 @@ public class Bed {
     }
 
     public int getQuilts(){
-        return quilt;
+        return quilts;
     }
 
     @Override
@@ -48,7 +48,7 @@ public class Bed {
                 ", pillows=" + pillows +
                 ", height=" + height +
                 ", sheets=" + sheets +
-                ", quilt=" + quilt +
+                ", quilt=" + quilts +
                 '}';
     }
 
